@@ -1,0 +1,219 @@
+<!--
+Name: Eric Ramos
+Email: eric_ramos@student.uml.edu
+File: /~eramos/index.html
+Affiliation: UMass Lowell Computer Science Student, 91.61 GUI Programming I
+Assignment: Bootstap and Github
+Created: 10/13/2020
+Copyright (c) 2020 by Eric Ramos. All rights reserved. May be
+freely copied or excerpted for educational purposes with credit to the
+author.
+
+Note resources were used from the following sites
+
+The following site was used to gather a template for my webpage. Any JS not from bootstrap is from this site
+https://startbootstrap.com/themes/freelancer/
+The following site was used as reference to create my Navbar, the current navbar is a mix between this navbar and the template navbar.
+https://getbootstrap.com/docs/4.0/examples/navbars/#
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title> HOME - Eric Ramos </title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/BunnyIcon.png" />
+        <!-- Font Awesome icons (free version)-->
+        <!--Note that fonts are from this startbootstrap.com-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <!--Note that styles.css is a mix of bootstrap and css from startbootstrap.com-->
+        <!--The template can be found here https://startbootstrap.com/themes/freelancer/-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/side.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarsExample02">
+            <!-- The following unordered list contains links that scroll to the appropriate page location-->
+            <ul class="navbar-nav mr-auto">
+              <!-- Note that all js is from https://startbootstrap.com/themes/freelancer/-->
+              <li class="nav-item active"><a class="nav-link py-3 px-sm-3 rounded js-scroll-trigger" href="#page-top">HOME</a></li>
+              <li class="nav-item"><a class="nav-link py-3 px-sm-3 rounded js-scroll-trigger" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link py-3 px-sm-3 rounded js-scroll-trigger" href="#social">Social Media</a></li>
+              <li class="nav-item"><a class="nav-link py-3 px-sm-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
+              <li class="nav-item py-2 px-sm-3 dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Homework</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown03">
+                  <a class="dropdown-item" href="http://cs.uml.edu/~eramos/HW2/" target = "_blank">Homework 2</a>
+                  <a class="dropdown-item" href="http://cs.uml.edu/~eramos/HW3/" target = "_blank">Homework 3</a>
+                  <a class="dropdown-item" href="#">Homework 4</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Title Banner-->
+        <!-- The following section displays the title banner along with displaying the sushi background-->
+        <header class="masthead text-white text-center sushi">
+            <div class="container d-flex align-items-center flex-column">
+                <img class = "mw-100" src="assets/img/TitleBanner.png" alt="Title Image" />
+            </div>
+        </header>
+        <!-- About Section-->
+        <section class="page-section bg-white text-secondary mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary">About Me</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-dark">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ml-auto"><p class="lead">Hello, welcome to my page, my name is Eric Ramos, I am currently a senior at Umass Lowell. I am honored to have you visit my page, below are some media links so you can get to know me better.</p></div>
+                    <div class="col-lg-4 mr-auto"><img src="assets/img/Pfp.png" alt="Me" width= "70%"></div>
+                </div>
+                <!-- About Section Button-->
+                <div class="text-center mt-4">
+                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
+                        <i class="fas fa-download mr-2"></i>
+                        Free Download!
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Social Section-->
+        <section class="page-section " id="social">
+            <div class="container">
+                <!-- Social media Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Social Media</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Social Media Items-->
+                <div class="row">
+                  <!-- Social Media 1 Spotify-->
+                  <!-- Creates a spotify icon, that links to my spotify account. The icon should be in a row of 4, 2, or 1 depending on screen size-->
+                  <div class="col-md-6 col-lg-3 mb-5">
+                      <div class="mx-auto">
+                        <div class=" d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="text-center text-dark"> <p class="lead display-4" >Spotify</p> </div>
+                        </div>
+                        <!-- Spotify link along with icon-->
+                        <a href="https://open.spotify.com/user/mi9lawmvtk3384zzrnv6ip7yq?si=q7gj1GNSTsmqk6zV1HOiNQ" target = "_blank">
+                          <img class="img-fluid" src="assets/img/Spotify.png" alt="Spotify" />
+                        </a>
+                      </div>
+                  </div>
+                  <!-- Social Media 2 Instagram-->
+                  <!-- Creates a Instagram icon, that links to my Instagram account. The icon should be in a row of 4, 2, or 1 depending on screen size-->
+                  <div class="col-md-6 col-lg-3 mb-5">
+                      <div class="mx-auto">
+                        <div class=" d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="text-center text-dark"> <p class="lead display-4" >Instagram</p> </div>
+                        </div>
+                        <!-- Instagram link along with icon-->
+                        <a href="https://www.instagram.com/k.somerandomstuff/" target = "_blank">
+                          <img class="img-fluid" src="assets/img/Instagram.png" alt="Instagram" />
+                        </a>
+                      </div>
+                  </div>
+                  <!-- Social Media 3 Linkedin-->
+                  <!-- Creates a Linkedin icon, that links to my Linkedin account. The icon should be in a row of 4, 2, or 1 depending on screen size-->
+                  <div class="col-md-6 col-lg-3 mb-5">
+                      <div class="mx-auto">
+                        <div class=" d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="text-center text-dark"> <p class="lead display-4" >Linkedin</p> </div>
+                        </div>
+                        <!-- Linkedin link along with icon-->
+                        <a href="https://www.linkedin.com/in/ericleeramos/" target = "_blank">
+                          <img class="img-fluid" src="assets/img/Linkedin.png" alt="Linkedin" />
+                        </a>
+                      </div>
+                  </div>
+                  <!-- Social Media 4 Linkedin-->
+                  <!-- Creates a Youtube icon, that links to my youtube channel... Or does it? The icon should be in a row of 4, 2, or 1 depending on screen size-->
+                  <div class="col-md-6 col-lg-3 mb-5">
+                      <div class="mx-auto">
+                        <div class=" d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="text-center text-dark"> <p class="lead display-4" >Youtube</p> </div>
+                        </div>
+                        <!-- Youtube along with icon-->
+                        <a href="https://youtu.be/dQw4w9WgXcQ" target = "_blank">
+                          <img class="img-fluid" src="assets/img/Youtube.png" alt="Youtube" />
+                        </a>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-center" id="contact">
+            <div class="container">
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Contact Me</h2>
+                <div class="divider-custom">
+                    <div class="bg-white divider-custom-line"></div>
+                    <div class="bg-white divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="bg-white divider-custom-line"></div>
+                </div>
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            Lowell, MA
+                        </p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Email</h4>
+                        <p class="lead mb-0">
+                            Eric_Ramos@student.uml.edu
+                        </p>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Phone</h4>
+                        <p class="lead mb-0">
+                            978-793-XXXX
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright © Eric Ramos 2020</small></div>
+        </div>
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed">
+            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
