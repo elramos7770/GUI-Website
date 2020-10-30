@@ -32,3 +32,7 @@ display: block;
 .buffer-bottom {
   padding-bottom: 15px;
 }
+/*Rounder borders*/
+.rounded-container{
+  border-radius: 80px;
+}
