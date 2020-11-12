@@ -1,0 +1,45 @@
+/*
+Name: Eric Ramos
+Email: eric_ramos@student.uml.edu
+File: /~eramos/index.html
+Affiliation: UMass Lowell Computer Science Student, 91.61 GUI Programming I
+Assignment: Creating an Interactive Dynamic Table
+Created: 10/26/2020
+Copyright (c) 2020 by Eric Ramos. All rights reserved. May be
+freely copied or excerpted for educational purposes with credit to the
+author.
+
+Note resources were used from the following sites
+This site was used for css styling the table so that the table would have scroll bars w/ defined height & width
+https://mdbootstrap.com/docs/jquery/tables/scroll/
+*/
+
+/*The folowing is used to create a smaller table with scroll bars*/
+.my-custom-scrollbar {
+position: relative;
+overflow: auto;
+}
+.table-design{
+  max-width: 80%;
+  max-height: 300px;
+  margin:auto;
+
+}
+.table-wrapper-scroll-y {
+display: block;
+}
+/*adds padding to the bottom of the submit button*/
+.buffer-bottom {
+  padding-bottom: 15px;
+}
+/*Rounder borders*/
+.rounded-container{
+  border-radius: 80px;
+}
+.red-text-error{
+  color: red;
+  border-color: red;
+}
+.error{
+
+}
