@@ -1,7 +1,7 @@
 Eric Ramos
 Eric_Ramos@student.uml.edu
 
-GitHub URL: https://elramos7770.github.io/HW5/
+GitHub URL: https://elramos7770.github.io/HW6/
 GitHub Repo: https://github.com/elramos7770/elramos7770.github.io
 
 Note resources were used from the following sites

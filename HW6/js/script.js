@@ -80,6 +80,9 @@ $(function(){
         range: [-50,50],
         greaterThan: "#s2"
       }
+    },
+    submitHandler: function(form) {
+        createTable();
     }
   });
 });
