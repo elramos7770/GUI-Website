@@ -4,6 +4,11 @@ Eric_Ramos@student.uml.edu
 GitHub URL: https://elramos7770.github.io/HW7/
 GitHub Repo: https://github.com/elramos7770/elramos7770.github.io
 
-Note resources were used from the following sites
-This site was used for css styling the table so that the table would have scroll bars w/ defined height & width
-https://mdbootstrap.com/docs/jquery/tables/scroll/
+Description of functionality.
+
+-Tab1 is the current state, it will be modified via slider and text input.
+-Sliders instantly modify text input and vice-versa.
+-Sliders will not update if text inputs do not pass validation.
+-All other tabs other than Tab1 are used to save states, when tab(X) is selected, modifying the sliders/inputs modifies the current state only (Tab1)
+-Save state will not create a new tab if validation is not passed.
+-To delete 1 tab, simply check the box and hit delete selected, for more than one, check multiple boxes.
