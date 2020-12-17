@@ -1,0 +1,29 @@
+/*
+Name: Eric Ramos
+Email: eric_ramos@student.uml.edu
+File: /~eramos/style.css
+Affiliation: UMass Lowell Computer Science Student, 91.61 GUI Programming I
+Assignment: scrabble
+Created: 12/14/2020
+Copyright (c) 2020 by Eric Ramos. All rights reserved. May be
+freely copied or excerpted for educational purposes with credit to the
+author.
+*/
+/*resizes the tiles*/
+.shrink{
+   position: relative;
+   width: 80px;
+   height: 80px;
+   margin: 5px;
+   padding: 0px;
+   border: 0px;
+}
+/*resizes the tile space*/
+.tileSpace{
+   position: relative;
+   width: 80px;
+   height: 80px;
+   margin: 5px;
+   padding: 0px;
+   border: 0px;
+}
