@@ -4,6 +4,10 @@ Eric_Ramos@student.uml.edu
 GitHub URL: https://elramos7770.github.io/HW8/
 GitHub Repo: https://github.com/elramos7770/elramos7770.github.io
 
+<<<<<<<<<<<<<<<<NOTICE>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I am using my two tokens in order to submit this.
+<<<<<<<<<<<<<<<<NOTICE>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 Description of functionality that is properly working.
 
 -letter tiles in the player’s “hand” are selected randomly from a data structure with the
